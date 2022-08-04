@@ -1,3 +1,4 @@
+@add
 Feature: Add new student to the database
 
   Scenario Outline: Verify that a new student gets added to the database

@@ -1,3 +1,4 @@
+@fetch
 Feature: Fetch all students from a class
 
   Scenario Outline: Verify that all students are returned for a given class

@@ -1,3 +1,4 @@
+@valid
 Feature: Login Form
 
   Scenario Outline: Verify login is successful for a valid user

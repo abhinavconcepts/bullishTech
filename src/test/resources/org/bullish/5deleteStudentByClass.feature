@@ -1,3 +1,4 @@
+@delete
 Feature: Delete existing student in the Database
 
   Scenario Outline: Verify that a student gets deleted from the database

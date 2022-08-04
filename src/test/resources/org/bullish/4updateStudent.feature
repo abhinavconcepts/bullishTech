@@ -1,3 +1,4 @@
+@update
 Feature: Update existing student in the Database
 
   Scenario Outline: Verify that a student gets updated in the database

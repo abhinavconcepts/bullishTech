@@ -1,3 +1,4 @@
+@existing
 Feature: Add an existing student to the database
 
   Scenario Outline: Verify that an existing student cannot be re-added to the database

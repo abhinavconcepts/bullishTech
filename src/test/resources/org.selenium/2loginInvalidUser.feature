@@ -1,3 +1,4 @@
+@invalidLogin
 Feature: Login Form
 
   Scenario Outline: Verify login is unsuccessful for a valid user
