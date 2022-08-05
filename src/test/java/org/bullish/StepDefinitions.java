@@ -127,6 +127,7 @@ public class StepDefinitions {
         // <studentClass> returned instead of the updated value, looks like a potential bug
         String[] put_return_text_array = put_return_text.split(",");
         assertEquals(put_return_text_array[0], "{\"id\":" + returned_id);
+        System.out.println("studentClass returned instead of the updated value, looks like a potential bug");
     }
 
     @Then("I should be told Student deleted with student id : {string}")
@@ -134,6 +135,7 @@ public class StepDefinitions {
 
         // Nothing returned when delete is successful, looks like a potential bug
         assertEquals(delete_return_text, "");
+        System.out.println("Nothing returned when delete is successful, looks like a potential bug");
     }
 
     @Then("I should see all students that belong to class : {string}")

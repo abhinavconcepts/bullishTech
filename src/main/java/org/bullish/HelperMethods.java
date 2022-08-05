@@ -55,7 +55,6 @@ public class HelperMethods {
 
     public String updateStudent(String json)  {
         try{
-            // This can be moved to an external config file in case the endpoint changes in the future
             String path = Config.update_student_api_path;
 
             HttpPut put = new HttpPut(host + path);
@@ -93,7 +92,6 @@ public class HelperMethods {
 
     public String deleteStudent(String json)  {
         try{
-            // This can be moved to an external config file in case the endpoint changes in the future
             String path = Config.delete_student_api_path;
 
             HttpDeleteWithBody delete = new HttpDeleteWithBody(host + path);
